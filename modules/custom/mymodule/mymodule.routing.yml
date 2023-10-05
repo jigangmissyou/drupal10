@@ -1,0 +1,7 @@
+mymodule.content:
+  path: '/mymodule/content/{param}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyModuleController::content'
+    _title: 'My Module Content'
+  requirements:
+    _permission: 'access content'
