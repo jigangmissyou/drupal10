@@ -1,0 +1,11 @@
+sites/*/config_*
+sites/*/files/config_*
+sites/*/files/php
+sites/*/config_*
+sites/*/files/config_*
+sites/*/files/php
+sites/*/files/temp
+sites/*/files/css
+sites/*/files/js
+sites/*/files/ctools
+sites/*/files/picture

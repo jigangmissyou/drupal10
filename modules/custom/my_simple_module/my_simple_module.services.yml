@@ -1,3 +1,5 @@
 services:
-  my_simple_module.service:
+  my_simple_module.service1:
     class: Drupal\my_simple_module\Service\MySimpleService
+  my_simple_module.service2:
+    class: Drupal\my_simple_module\Service\AnotherService

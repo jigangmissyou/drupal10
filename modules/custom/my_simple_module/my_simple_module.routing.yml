@@ -5,3 +5,10 @@ my_simple_module.content:
     _title: 'My Simple Page'
   requirements:
     _permission: 'access content'
+my_simple_module.custom_method:
+  path: '/my-custom-method'
+  defaults:
+    _controller: '\Drupal\my_simple_module\Controller\MySimpleController::myCustomMethod'
+    _title: 'My Custom Method Page'
+  requirements:
+    _permission: 'access content'
