@@ -1,0 +1,3 @@
+services:
+  my_simple_module.service:
+    class: Drupal\my_simple_module\Service\MySimpleService

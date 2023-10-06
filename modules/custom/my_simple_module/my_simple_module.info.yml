@@ -1,0 +1,5 @@
+name: 'My Simple Module'
+type: module
+description: 'A simple module demonstrating the use of a service and controller.'
+core_version_requirement: ^10 || ^11
+package: Custom

@@ -1,0 +1,7 @@
+my_simple_module.content:
+  path: '/my-simple-page'
+  defaults:
+    _controller: '\Drupal\my_simple_module\Controller\MySimpleController::content'
+    _title: 'My Simple Page'
+  requirements:
+    _permission: 'access content'
