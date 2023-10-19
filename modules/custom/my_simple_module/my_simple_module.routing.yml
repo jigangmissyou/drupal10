@@ -12,3 +12,10 @@ my_simple_module.custom_method:
     _title: 'My Custom Method Page'
   requirements:
     _permission: 'access content'
+my_simple_module.greeting_form:
+  path: '/admin/config/salutation-configuration'
+  defaults:
+    _form: Drupal\my_simple_module\Form\SalutationConfigurationForm
+    _title: 'Salutation configuration'
+  requirements:
+    _permission: 'administer site configuration'
